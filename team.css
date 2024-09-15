@@ -1,0 +1,533 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif ;
+}
+
+h3  {
+  padding-bottom: 5px;
+}
+
+button , .freesupport-hover {
+  padding: 10px 20px ;
+  border-radius: 3px;
+  background-color: #001f3f;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+button a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+button:hover a{
+  color: #001f3f;
+}
+
+button:hover{
+  background-color: transparent;
+  border: #001f3f 1px solid;
+  color: #001f3f;
+}
+
+
+
+header{
+  height: 80px;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
+  background-color: #007cc7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7%;
+  cursor: pointer;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  color: #001f3f;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+
+/* leptop nav */
+
+.leptop-nav ul {
+  display: flex;
+}
+
+.leptop-nav li {
+  list-style: none;
+  padding: 8px 9px;
+}
+
+
+.leptop-nav li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.leptop-nav li:hover {
+  background-color: #001f3f;
+  border-radius: 3px;
+
+}
+
+
+
+/* movile nav */
+
+.mobile-nav{
+  display: none;
+}
+
+/* button nav  */
+
+.button .button-one button {
+  padding: 10px 22px;
+}
+
+.button .button-one button a {
+  font-size: 1rem;
+}
+
+.button .button-one button:hover a {
+  color: white;
+}
+
+.button-hide {
+  display: none;
+}
+
+.button-hide {
+  display: none;
+} 
+
+
+
+/* team sectionn */
+
+.team-hedling {
+  height: auto;
+  width: 100%;
+  padding: 100px 10% 40px 10%;
+  text-align: center;
+}
+
+
+.team-hedling p{
+  padding: 5px 20%;
+}
+
+.team-section {
+  height: auto;
+  width: 100%;
+  padding: 0px 10% 80px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px , 1fr));
+  grid-gap: 30px;
+}
+
+.team-one {
+  height: 100%;
+  width: 100%;
+  /* background-color: #007cc7; */
+  box-shadow: 5px 0px 0px #007cc7;
+  position: relative;
+}
+
+.team-one img {
+  width: 100%;
+}
+
+.team-one-text {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: auto;
+  width: 100%;
+  padding: 10px 10%;
+  backdrop-filter: blur( 10px); 
+  color: #001f3f;
+}
+
+.team-one-text i {
+  margin-top: 4px;
+  cursor: pointer;
+  margin-right: 4px;
+  font-size: 1.1rem;
+
+}
+
+
+
+
+/* foooter sectionn */
+
+footer {
+  height: auto;
+  width: 100%;
+  padding: 80px 10% 40px 10%;
+  margin-top: 50px;
+  background-image: linear-gradient(to top, #007cc7, #7598d5, #acb8e3, #d9daf0, #ffffff);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: #001f3f;
+  border-radius: 0px 0px 0px 0px;
+}
+
+footer h1 {
+  font-size: 1.7frem;
+  padding-top: 8px;
+}
+
+.footer-one {
+  width: 32%;
+  height: 100%;
+  padding-right: 10%;
+}
+
+.footer-one h1 {
+  font-size: 2.5rem;
+  padding-top: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #001f3f;
+  font-size: 1.1rem;
+}
+
+
+
+.footer-two{
+  width: 25%;
+  /* background-color: #24815a; */
+  height: 100%;
+}
+
+.footer-there {
+  width: 25%;
+  height: 100%;
+  /* background-color: #acb8e3; */
+  
+}
+
+.footer-for {
+  width: 23%;
+  height: 100%;
+  /* background-color: rgb(73, 117, 36); */
+}
+
+.footer-for  i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+
+.subfooter {
+  text-align: center;
+  background-color: #007cc7;
+  color: #001f3f;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:834px) {
+  
+
+  header{
+    padding: 0px 5%;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
+
+  }
+  
+  .logo a {
+    font-size: 6vw;
+  }
+  
+  /* leptop nav */
+  
+  .leptop-nav ul {
+    display: none;
+  }
+
+  
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    margin-left: 0px;
+    z-index: 1000;
+  }
+
+
+  .mobile-nav li ul {
+    padding-bottom: 100px;
+  }
+
+  .mobile-nav li{
+    padding: 15px 0%;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #007cc7;
+    border-bottom: 1px solid white;
+  }
+
+  .mobile-nav li a {
+    text-decoration: none;
+    color:white; 
+    padding: 15px 50% 15px 5%;
+  }
+
+  .mobile-nav li:hover{
+    background-color: #001f3f;
+  }
+
+  .mobile-nav li:hover a {
+    color: white;
+  }
+
+    
+  /* button nav  */
+
+  .button-hide{
+    display: inline-block;
+  }
+  
+  
+  .button .button-one button {
+    padding: 10px 22px;
+  }
+  
+  .button .button-one button a {
+    font-size: 1rem;
+  }
+
+
+  .button .button-one button i {
+    font-size: 1rem;
+  }
+
+
+
+
+  /* maine sectionnn */
+
+  .team-hedling {
+    padding: 100px 5% 40px 5%;
+  }
+  
+  .team-hedling p{
+    padding: 5px 5%;
+  }
+  
+  .team-section {
+    padding: 0px 5% 80px 5%;
+    grid-template-columns: repeat(auto-fit, minmax(220px , 1fr));
+  }
+  
+
+  
+  /* foooter sectionn */
+
+  footer {
+    padding: 80px 5% 40px 5%;
+    overflow: hidden;
+  
+  }
+
+  footer h1 {
+    font-size: 1.3rem;
+    padding-top: 8px;
+  }
+
+  .footer-one {
+    width: 40%;
+    height: 100%;
+    padding-right: 10%;
+  }
+
+  .footer-one h1 {
+    font-size: 2rem;
+    padding-top: 0px;
+  }
+
+  footer ul li {
+    list-style: none;
+    padding-bottom: 7px;
+    font-weight: bold;
+  }
+
+  footer ul li a{
+    text-decoration: none;
+    color: #001f3f;
+    font-size: 1rem;
+  }
+
+
+
+  .footer-two{
+    width: 30%;
+    /* background-color: #24815a; */
+    height: 100%;
+  }
+
+  .footer-there {
+    display: none; 
+  }
+
+  .footer-for {
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(73, 117, 36); */
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+
+
+
+  header {
+    padding: 0px 2%;
+  }
+
+  /* leptop nav */
+
+  .leptop-nav ul {
+    display: none;
+  }
+
+  /* movile nav */
+
+
+  .mobile-nav li{
+    font-size: 1.1rem;
+  }
+
+  /* button nav  */
+
+  .button-hide{
+    display: inline-block;
+  }
+  
+  
+  .button .button-one button {
+    padding: 8px 18px;
+  }
+  
+  .button .button-one button a {
+    font-size: 0.8rem;
+  }
+
+
+  .button .button-one button i {
+    font-size: 0.8rem;
+  }
+
+
+
+
+
+ /* maine sectionnn */
+
+ .team-hedling {
+  padding: 100px 2% 40px 2%;
+}
+
+.team-hedling p{
+  padding: 5px 2%;
+}
+
+.team-section {
+  padding: 0px 2% 80px 2%;
+  grid-template-columns: repeat(auto-fit, minmax(220px , 1fr));
+}
+
+
+
+
+
+
+  /* foooter sectionn */
+
+  footer {
+    padding: 80px 2% 40px 2%;
+    flex-wrap: wrap;
+  }
+
+  .footer-one {
+    width: 100%;
+  }
+
+  .footer-two{
+    width: 50%;
+  }
+
+  .footer-for {
+    width: 50%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

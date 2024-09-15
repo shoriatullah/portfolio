@@ -1,0 +1,68 @@
+
+
+@media (max-width:1024px) {
+  
+ 
+
+  button {
+    padding: 10px 18px ;
+  }
+
+  
+  .navigation {
+    padding: 0px 5%;
+  }
+  
+  .logo a {
+    font-size: 1.4rem;
+    color: #001f3f;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  /* leptop nav */
+  
+  .leptop-nav li a {
+    font-size: 1.1rem;
+  }
+  
+
+
+  
+  /* hero sectionn */
+
+  .hero-one h2 {
+    font-size: 1.6rem;
+  }
+  
+   .hero-one p {
+    padding: 0px;
+  }  
+  
+  .hero-one button {
+    margin-top: 20px;
+  
+  }
+  
+  .hero-one button a {
+    font-size: 1rem;
+  }
+  
+  
+  .hero-icon {
+    padding: 10px 0px 0px 0px; 
+    color: #001f3f;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .hero-icon i {
+    margin-right: 5px;
+  }
+  
+  
+  
+}
+
+

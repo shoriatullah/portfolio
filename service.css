@@ -1,0 +1,606 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif ;
+}
+
+/* backdrop-filter: blur( 2px); */
+
+h3  {
+  padding-bottom: 5px;
+}
+
+
+button , .service-hover{
+  padding: 10px 20px ;
+  border-radius: 3px;
+  background-color: #001f3f;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+button a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+button:hover a{
+  color: #001f3f;
+}
+
+button:hover{
+  background-color: transparent;
+  border: #001f3f 1px solid;
+  color: #001f3f;
+}
+
+
+header{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.navigation {
+  height: 80px;
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
+  background-color: #007cc7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7%;
+  cursor: pointer;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  color: #001f3f;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+
+/* leptop nav */
+
+.leptop-nav ul {
+  display: flex;
+}
+
+.leptop-nav li {
+  list-style: none;
+  padding: 8px 9px;
+}
+
+
+.leptop-nav li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  
+}
+
+.leptop-nav li:hover {
+  background-color: #001f3f;
+  border-radius: 3px;
+
+}
+
+
+/* movile nav */
+
+.mobile-nav{
+  display: none;
+}
+
+
+/* button nav  */
+
+.button .button-one button {
+  padding: 10px 22px;
+}
+
+.button .button-one button a {
+  font-size: 1rem;
+}
+
+.button .button-one button:hover a {
+  color: white;
+}
+
+
+.button-hide {
+  display: none;
+}
+
+.button-hide {
+  display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* provide sectionn  */
+
+.provide {
+  height: auto;
+  width: 100%;
+  padding: 80px 10% 80px 10%;
+}
+
+.provide-hedling {
+  text-align: center;
+}
+
+.provide-hedling h2 {
+  font-size: 2.3rem;
+  color: #001f3f;
+}
+
+.provide-hedling p {
+  padding: 0px 15%;
+}
+
+.provide-section {
+  height: auto;
+  width: 100%;
+  margin: 40px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px , 1fr));
+  grid-gap: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.provide-one {
+  /* background-color: whitesmoke; */
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.116);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.provide-one img {
+  height: 90px;
+}
+
+.provide-one h2 {
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.see-work {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.see-work button {
+  padding: 12px 25px;
+  font-size: 1rem;
+}
+
+
+/* foooter sectionn */
+
+footer {
+  height: auto;
+  width: 100%;
+  padding: 20px 10% 40px 10%;
+  margin-top: 80px;
+  background-image: linear-gradient(to top, #007cc7, #7598d5, #acb8e3, #d9daf0, #ffffff);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: #001f3f;
+  border-radius: 0px 0px 0px 0px;
+}
+
+footer h1 {
+  font-size: 1.7frem;
+  padding-top: 8px;
+}
+
+.footer-one {
+  width: 32%;
+  height: 100%;
+  padding-right: 10%;
+}
+
+.footer-one h1 {
+  font-size: 2.5rem;
+  padding-top: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #001f3f;
+  font-size: 1.1rem;
+}
+
+
+
+.footer-two{
+  width: 25%;
+  /* background-color: #24815a; */
+  height: 100%;
+}
+
+.footer-there {
+  width: 25%;
+  height: 100%;
+  /* background-color: #acb8e3; */
+  
+}
+
+.footer-for {
+  width: 23%;
+  height: 100%;
+  /* background-color: rgb(73, 117, 36); */
+}
+
+.footer-for  i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+
+.subfooter {
+  text-align: center;
+  background-color: #007cc7;
+  color: #001f3f;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:834px) {
+
+  .navigation {
+    padding: 0px 5%;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
+  }
+  
+  .logo a {
+    font-size: 6vw;
+  }
+  
+  
+  
+  /* leptop nav */
+  
+  .leptop-nav ul {
+    display: none;
+  }
+  
+  .leptop-nav li {
+    list-style: none;
+    padding: 0px 13px;
+    font-size: 1.2rem;
+
+  }
+  
+  
+  
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+
+  .mobile-nav li ul {
+    padding-bottom: 100px;
+  }
+
+  .mobile-nav li{
+    padding: 15px 0%;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #007cc7;
+    border-bottom: 1px solid white;
+  }
+
+  .mobile-nav li a {
+    text-decoration: none;
+    color:white; 
+    padding: 15px 50% 15px 5%;
+  }
+
+  .mobile-nav li:hover{
+    background-color: #001f3f;
+  }
+
+  .mobile-nav li:hover a {
+    color: white;
+  }
+
+    
+  
+  /* button nav  */
+
+  .button-hide{
+    display: inline-block;
+  }
+  
+  
+  .button .button-one button {
+    padding: 10px 22px;
+  }
+  
+  .button .button-one button a {
+    font-size: 1rem;
+  }
+
+
+  .button .button-one button i {
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+/* provide sectionn  */
+
+.provide {
+  padding: 80px 5% 80px 5%;
+}
+
+.provide-hedling p {
+  padding: 0px 5%;
+}
+
+.provide-section {
+  grid-gap: 25px;
+
+}
+
+
+/* foooter sectionn */
+
+footer {
+  padding: 80px 10% 40px 10%;
+  overflow: hidden;
+}
+
+footer h1 {
+  font-size: 1.3rem;
+  padding-top: 8px;
+}
+
+.footer-one {
+  width: 40%;
+  height: 100%;
+  padding-right: 10%;
+}
+
+.footer-one h1 {
+  font-size: 2rem;
+  padding-top: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #001f3f;
+  font-size: 1rem;
+}
+
+
+.footer-two{
+  width: 30%;
+  /* background-color: #24815a; */
+  height: 100%;
+}
+
+.footer-there {
+  display: none; 
+}
+
+.footer-for {
+  width: 30%;
+  height: 100%;
+  /* background-color: rgb(73, 117, 36); */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+
+
+
+  /* leptop nav */
+
+  .leptop-nav ul {
+    display: none;
+  }
+
+
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+
+  .mobile-nav li{
+    padding: 15px 0%;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #007cc7;
+    border-bottom: 1px solid white;
+  }
+
+  .mobile-nav li a {
+    text-decoration: none;
+    color:white;
+    padding: 15px 350px 15px 5%;
+  }
+
+  .mobile-nav li:hover{
+    background-color: #001f3f;
+  }
+
+  .mobile-nav li:hover a {
+    color: white;
+  }
+
+
+  /* button nav  */
+
+  .button-hide {
+    display: inline-block;
+  } 
+
+
+/* provide sectionn  */
+
+.provide {
+  padding: 80px 5% 80px 5%;
+}
+
+.provide-hedling p {
+  padding: 0px 5%;
+}
+
+.provide-section {
+  grid-gap: 25px;
+
+}
+
+
+/* foooter sectionn */
+
+footer {
+  padding: 80px 10% 40px 10%;
+  overflow: hidden;
+}
+
+footer h1 {
+  font-size: 1.3rem;
+  padding-top: 8px;
+}
+
+.footer-one {
+  width: 40%;
+  height: 100%;
+  padding-right: 10%;
+}
+
+.footer-one h1 {
+  font-size: 2rem;
+  padding-top: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #001f3f;
+  font-size: 1rem;
+}
+
+
+.footer-two{
+  width: 30%;
+  /* background-color: #24815a; */
+  height: 100%;
+}
+
+.footer-there {
+  display: none; 
+}
+
+.footer-for {
+  width: 30%;
+  height: 100%;
+  /* background-color: rgb(73, 117, 36); */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
