@@ -49,6 +49,7 @@
   .mobile-nav li a {
     text-decoration: none;
     color:white; 
+    font-size: 0.9;
     padding: 15px 50% 15px 5%;
   }
 
