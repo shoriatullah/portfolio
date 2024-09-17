@@ -535,6 +535,61 @@ footer ul li a{
   }
 
 
+  /* movile nav */
+
+  .mobile-nav{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+
+  .mobile-nav li ul {
+    padding-bottom: 100px;
+  }
+
+  .mobile-nav li{
+    padding: 15px 0%;
+    list-style: none;
+    /* font-size: 1.5rem; */
+    font-weight: 400;
+    background-color: #007cc7;
+    border-bottom: 1px solid white;
+  }
+
+  .mobile-nav li a {
+    text-decoration: none;
+    color:white; 
+    font-size: 1.2rem;
+    padding: 15px 50% 15px 5%;
+  }
+
+  .mobile-nav li:hover{
+    background-color: #001f3f;
+  }
+
+  .mobile-nav li:hover a {
+    color: white;
+  }
+  
+  /* button nav  */
+  
+  
+  .button .button-one button {
+    padding: 8px 15px;
+    font-size: 1rem;
+  }
+  
+  .button-hide {
+    display: inline-block;
+  }
+
+
+
+
+
 
   /* hero sectionn */
 

@@ -490,10 +490,14 @@ footer ul li a{
   }
 
 
+  .mobile-nav li ul {
+    padding-bottom: 100px;
+  }
+
   .mobile-nav li{
     padding: 15px 0%;
     list-style: none;
-    font-size: 2rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
     background-color: #007cc7;
     border-bottom: 1px solid white;
@@ -501,8 +505,9 @@ footer ul li a{
 
   .mobile-nav li a {
     text-decoration: none;
-    color:white;
-    padding: 15px 350px 15px 5%;
+    color:white; 
+    font-size: 1.2rem;
+    padding: 15px 50% 15px 5%;
   }
 
   .mobile-nav li:hover{
@@ -512,51 +517,51 @@ footer ul li a{
   .mobile-nav li:hover a {
     color: white;
   }
-
-
+  
   /* button nav  */
-
+  
+  
+  .button .button-one button {
+    padding: 8px 15px;
+    font-size: 1rem;
+  }
+  
   .button-hide {
     display: inline-block;
-  } 
+  }
 
 
-/* provide sectionn  */
-
-.provide {
-  padding: 80px 5% 80px 5%;
-}
-
-.provide-hedling p {
-  padding: 0px 5%;
-}
-
-.provide-section {
-  grid-gap: 25px;
-
-}
 
 
 /* foooter sectionn */
 
 footer {
-  padding: 80px 10% 40px 10%;
-  overflow: hidden;
+  height: auto;
+  width: 100%;
+  padding: 80px 2% 40px 2%;
+  background-image: linear-gradient(to top, #007cc7, #7598d5, #acb8e3, #d9daf0, #ffffff);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  color: #001f3f;
+  border-radius: 0px 0px 0px 0px;
 }
 
 footer h1 {
-  font-size: 1.3rem;
+  font-size: 1.7frem;
   padding-top: 8px;
 }
 
 .footer-one {
-  width: 40%;
+  width: 100%;
   height: 100%;
   padding-right: 10%;
 }
 
 .footer-one h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-top: 0px;
 }
 
@@ -569,26 +574,45 @@ footer ul li {
 footer ul li a{
   text-decoration: none;
   color: #001f3f;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 
+
 .footer-two{
-  width: 30%;
+  width: 50%;
   /* background-color: #24815a; */
   height: 100%;
 }
 
 .footer-there {
-  display: none; 
+  width: 25%;
+  height: 100%;
+  /* background-color: #acb8e3; */
+  
 }
 
 .footer-for {
-  width: 30%;
+  width: 50%;
   height: 100%;
   /* background-color: rgb(73, 117, 36); */
 }
 
+.footer-for  i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+
+.subfooter {
+  text-align: center;
+  background-color: #007cc7;
+  color: #001f3f;
+  padding-bottom: 20px;
+}
+
+  
 
 }
 
